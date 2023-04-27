@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <title>Document</title>
+  <title>Makima</title>
 </head>
 <body>
 
@@ -34,11 +34,11 @@ By clicking "Accept", I agree to be bound by the terms of this contract and to f
       <br>
       <p id="more">See more</p>
       <div>
-        <button>Decline</button> <button>Accept</button>
+        <button onclick="decline()" id="no">Decline</button> <button onclick="agree()" id="yes">Accept</button>
       </div>
     </section>
 
-
+    <div id="overlay"></div>
     <div id="mores">
       <p>
         If anyone tries to resist the contract and fails to fulfill their obligations, Makima will take swift and severe action against them. She will use all the resources at her disposal to track them down and punish them, no matter where they try to hide.
@@ -54,6 +54,10 @@ Additionally, those who resist may find that their lives become much more diffic
 Ultimately, those who resist the contract will find themselves in a world of pain and misery. Makima's power and influence are too great to be overcome, and those who attempt to do so will be crushed under her heel. It is therefore strongly recommended that anyone who is considering resisting the contract think very carefully about the consequences before doing so.
       </p>
     </div>
+    <img id="MakimaOne" src="img/MakimaOne.png" alt="Makima">
+    <div id="black"></div>
+    <img id="MakimaTwo" src="img/MakimaTwo.png" alt="Makima">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
